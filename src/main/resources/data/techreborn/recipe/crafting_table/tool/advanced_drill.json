@@ -8,7 +8,7 @@
     "key": {
         "D": "minecraft:diamond",
         "B": "techreborn:lithium_ion_battery",
-        "T": "#c:ingots/titanium",
+        "T": {"tag": "c:ingots/titanium"},
         "S": "techreborn:basic_drill"
     },
     "result": {

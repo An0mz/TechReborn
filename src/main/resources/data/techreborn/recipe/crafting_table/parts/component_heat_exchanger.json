@@ -7,7 +7,7 @@
     ],
     "key": {
         "E": "techreborn:heat_exchanger",
-        "G": "#c:plates/gold"
+        "G": {"tag": "c:plates/gold"}
     },
     "result": {
         "id": "techreborn:component_heat_exchanger"

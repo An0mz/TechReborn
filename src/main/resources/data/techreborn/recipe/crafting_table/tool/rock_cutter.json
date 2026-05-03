@@ -6,7 +6,7 @@
         "DCB"
     ],
     "key": {
-        "D": "#c:dusts/diamond",
+        "D": {"tag": "c:dusts/diamond"},
         "N": "minecraft:gold_nugget",
         "C": "techreborn:electronic_circuit",
         "B": "techreborn:red_cell_battery"

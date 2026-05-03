@@ -6,8 +6,8 @@
         "DSD"
     ],
     "key": {
-        "S": "#c:ingots/steel",
-        "D": "#c:dusts/diamond"
+        "S": {"tag": "c:ingots/steel"},
+        "D": {"tag": "c:dusts/diamond"}
     },
     "result": {
         "id": "techreborn:diamond_saw_blade",

@@ -8,7 +8,7 @@
     "key": {
         "C": "techreborn:electronic_circuit",
         "L": "minecraft:lapis_block",
-        "S": "#c:plates/silver"
+        "S": {"tag": "c:plates/silver"}
     },
     "result": {
         "id": "techreborn:lsu_storage"

@@ -6,9 +6,9 @@
         "TCT"
     ],
     "key": {
-        "P": "#c:plates/copper",
+        "P": {"tag": "c:plates/copper"},
         "C": "techreborn:water_coolant_cell_30k",
-        "T": "#c:ingots/tin"
+        "T": {"tag": "c:ingots/tin"}
     },
     "result": {
         "id": "techreborn:water_coolant_cell_60k"

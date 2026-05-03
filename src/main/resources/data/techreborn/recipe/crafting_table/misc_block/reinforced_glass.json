@@ -7,7 +7,7 @@
         "GAG"
     ],
     "key": {
-        "A": "#c:plates/lead",
+        "A": {"tag": "c:plates/lead"},
         "G": "minecraft:glass"
     },
     "result": {

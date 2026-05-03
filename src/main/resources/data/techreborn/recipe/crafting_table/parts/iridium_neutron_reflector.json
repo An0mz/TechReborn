@@ -7,7 +7,7 @@
     ],
     "key": {
         "P": "techreborn:thick_neutron_reflector",
-        "I": "#c:ingots/iridium"
+        "I": {"tag": "c:ingots/iridium"}
     },
     "result": {
         "id": "techreborn:iridium_neutron_reflector"

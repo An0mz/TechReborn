@@ -7,7 +7,7 @@
         " C "
     ],
     "key": {
-        "C": "#c:dusts/coal"
+        "C": {"tag": "c:dusts/coal"}
     },
     "result": {
         "id": "techreborn:carbon_fiber"

@@ -8,7 +8,7 @@
     "key": {
         "C": "techreborn:advanced_circuit",
         "F": "techreborn:advanced_machine_frame",
-        "P": "#c:plates/sapphire",
+        "P": {"tag": "c:plates/sapphire"},
         "S": "minecraft:string",
         "T": "minecraft:stick"
     },

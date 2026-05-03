@@ -10,7 +10,7 @@
         "A": "techreborn:advanced_circuit",
         "W": "techreborn:wind_mill",
         "G": "techreborn:reinforced_glass",
-        "I": "#c:plates/aluminum"
+        "I": {"tag": "c:plates/aluminum"}
     },
     "result": {
         "id": "techreborn:gas_turbine"

@@ -8,7 +8,7 @@
     ],
     "key": {
         "A": "techreborn:industrial_machine_frame",
-        "R": "#c:plates/chromium",
+        "R": {"tag": "c:plates/chromium"},
         "C": "techreborn:data_storage_core"
     },
     "result": {

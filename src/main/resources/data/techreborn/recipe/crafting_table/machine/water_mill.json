@@ -7,7 +7,7 @@
     ],
     "key": {
         "S": "minecraft:stick",
-        "W": "#minecraft:planks",
+        "W": {"tag": "minecraft:planks"},
         "G": "techreborn:solid_fuel_generator"
     },
     "result": {

@@ -8,7 +8,7 @@
     ],
     "key": {
         "A": "techreborn:advanced_machine_casing",
-        "R": "#c:plates/chromium",
+        "R": {"tag": "c:plates/chromium"},
         "C": "techreborn:data_storage_core"
     },
     "result": {

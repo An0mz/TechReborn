@@ -8,7 +8,7 @@
     ],
     "key": {
         "A": "techreborn:basic_machine_frame",
-        "R": "#c:plates/aluminum",
+        "R": {"tag": "c:plates/aluminum"},
         "C": "techreborn:electronic_circuit"
     },
     "result": {

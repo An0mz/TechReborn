@@ -2,8 +2,8 @@
     "type": "minecraft:crafting_shaped",
     "group": "wooden_fence_gate",
     "pattern": [
-        "#W#",
-        "#W#"
+        {"tag": "W#"},
+        {"tag": "W#"}
     ],
     "key": {
         "#": "minecraft:stick",

@@ -6,11 +6,11 @@
         "PCP"
     ],
     "key": {
-        "P": "#minecraft:planks",
+        "P": {"tag": "minecraft:planks"},
         "B": "techreborn:red_cell_battery",
         "C": "techreborn:electronic_circuit",
         "W": "techreborn:insulated_copper_cable",
-        "R": "#c:plates/red_garnet"
+        "R": {"tag": "c:plates/red_garnet"}
     },
     "result": {
         "id": "techreborn:energy_storage_upgrade"

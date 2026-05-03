@@ -6,7 +6,7 @@
         " T "
     ],
     "key": {
-        "T": "#c:ingots/tin",
+        "T": {"tag": "c:ingots/tin"},
         "C": "techreborn:helium_bucket"
     },
     "result": {

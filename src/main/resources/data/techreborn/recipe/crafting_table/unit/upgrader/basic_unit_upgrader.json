@@ -6,7 +6,7 @@
         "CDC"
     ],
     "key": {
-        "P": "#c:plates/electrum",
+        "P": {"tag": "c:plates/electrum"},
         "B": "techreborn:advanced_machine_frame",
         "D": "techreborn:digital_display",
         "X": "techreborn:basic_storage_unit",

@@ -7,7 +7,7 @@
     ],
     "key": {
         "C": "techreborn:electronic_circuit",
-        "W": "#minecraft:wool"
+        "W": {"tag": "minecraft:wool"}
     },
     "result": {
         "id": "techreborn:muffler_upgrade"

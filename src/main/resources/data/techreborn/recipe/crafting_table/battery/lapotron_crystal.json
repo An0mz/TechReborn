@@ -6,7 +6,7 @@
         "LCL"
     ],
     "key": {
-        "L": "#c:plates/lazurite",
+        "L": {"tag": "c:plates/lazurite"},
         "C": "techreborn:industrial_circuit",
         "E": "techreborn:energy_crystal"
     },

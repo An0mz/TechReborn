@@ -8,7 +8,7 @@
     "key": {
         "B": "techreborn:red_cell_battery",
         "C": "techreborn:insulated_copper_cable",
-        "W": "#minecraft:planks"
+        "W": {"tag": "minecraft:planks"}
     },
     "result": {
         "id": "techreborn:low_voltage_su"

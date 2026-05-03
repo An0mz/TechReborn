@@ -10,7 +10,7 @@
         "C": "techreborn:electronic_circuit",
         "G": "techreborn:solid_fuel_generator",
         "H": "techreborn:reinforced_glass",
-        "I": "#c:plates/aluminum"
+        "I": {"tag": "c:plates/aluminum"}
     },
     "result": {
         "id": "techreborn:semi_fluid_generator"

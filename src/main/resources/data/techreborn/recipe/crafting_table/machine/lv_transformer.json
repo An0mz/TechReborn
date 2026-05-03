@@ -6,7 +6,7 @@
         "PPP"
     ],
     "key": {
-        "P": "#minecraft:planks",
+        "P": {"tag": "minecraft:planks"},
         "C": "minecraft:copper_ingot",
         "W": "techreborn:insulated_copper_cable"
     },

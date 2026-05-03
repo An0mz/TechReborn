@@ -7,7 +7,7 @@
         "CDC"
     ],
     "key": {
-        "P": "#c:plates/steel",
+        "P": {"tag": "c:plates/steel"},
         "B": "techreborn:industrial_machine_frame",
         "D": "techreborn:digital_display",
         "X": "techreborn:advanced_tank_unit",

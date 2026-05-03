@@ -6,8 +6,8 @@
         " B "
     ],
     "key": {
-        "B": "#c:ingots/bronze",
-        "W": "#minecraft:wool"
+        "B": {"tag": "c:ingots/bronze"},
+        "W": {"tag": "minecraft:wool"}
     },
     "result": {
         "id": "techreborn:painting_tool"

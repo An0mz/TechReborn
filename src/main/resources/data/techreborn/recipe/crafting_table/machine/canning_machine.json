@@ -6,7 +6,7 @@
         "TTT"
     ],
     "key": {
-        "T": "#c:ingots/tin",
+        "T": {"tag": "c:ingots/tin"},
         "C": "techreborn:electronic_circuit",
         "B": "techreborn:basic_machine_frame"
     },

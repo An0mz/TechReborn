@@ -7,7 +7,7 @@
         "AAA"
     ],
     "key": {
-        "A": "#c:ingots/refined_iron"
+        "A": {"tag": "c:ingots/refined_iron"}
     },
     "result": {
         "id": "techreborn:basic_machine_frame"

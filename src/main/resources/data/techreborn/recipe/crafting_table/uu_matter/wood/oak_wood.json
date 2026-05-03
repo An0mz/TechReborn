@@ -6,7 +6,7 @@
         "   "
     ],
     "key": {
-        "S": "#c:dusts/saw",
+        "S": {"tag": "c:dusts/saw"},
         "U": "techreborn:uu_matter"
     },
     "result": {

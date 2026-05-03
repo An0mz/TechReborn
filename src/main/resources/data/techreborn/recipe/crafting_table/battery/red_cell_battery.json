@@ -8,7 +8,7 @@
     "key": {
         "W": "techreborn:insulated_copper_cable",
         "R": "minecraft:redstone",
-        "T": "#c:ingots/lead"
+        "T": {"tag": "c:ingots/lead"}
     },
     "result": {
         "id": "techreborn:red_cell_battery"

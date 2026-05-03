@@ -6,7 +6,7 @@
         "RER"
     ],
     "key": {
-        "R": "#c:plates/iron",
+        "R": {"tag": "c:plates/iron"},
         "C": "techreborn:advanced_circuit",
         "E": "techreborn:extractor",
         "F": "techreborn:advanced_machine_frame"

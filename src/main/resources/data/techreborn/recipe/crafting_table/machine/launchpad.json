@@ -8,9 +8,9 @@
     "key": {
         "C": "techreborn:advanced_circuit",
         "F": "techreborn:advanced_machine_frame",
-        "M": "#c:plates/magnalium",
+        "M": {"tag": "c:plates/magnalium"},
         "P": "minecraft:piston",
-        "Z": "#c:plates/zinc"
+        "Z": {"tag": "c:plates/zinc"}
     },
     "result": {
         "id": "techreborn:launchpad"

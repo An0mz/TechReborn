@@ -6,7 +6,7 @@
         "CCC"
     ],
     "key": {
-        "C": "#c:plates/copper",
+        "C": {"tag": "c:plates/copper"},
         "R": "techreborn:reactor_plating"
     },
     "result": {
