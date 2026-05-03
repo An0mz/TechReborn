@@ -2,15 +2,15 @@
     "type": "minecraft:crafting_shapeless",
     "group": "plantball",
     "ingredients": [
-        {"tag": "minecraft:leaves"},
-        {"tag": "minecraft:leaves"},
-        {"tag": "minecraft:leaves"},
-        {"tag": "minecraft:leaves"},
-        {"tag": "minecraft:leaves"},
-        {"tag": "minecraft:leaves"},
-        {"tag": "minecraft:leaves"},
-        {"tag": "minecraft:leaves"},
-        {"tag": "minecraft:leaves"}
+        "#minecraft:leaves",
+        "#minecraft:leaves",
+        "#minecraft:leaves",
+        "#minecraft:leaves",
+        "#minecraft:leaves",
+        "#minecraft:leaves",
+        "#minecraft:leaves",
+        "#minecraft:leaves",
+        "#minecraft:leaves"
     ],
     "result": {
         "id": "techreborn:plantball"

@@ -6,10 +6,10 @@
         "SCS"
     ],
     "key": {
-        "C": {"tag": "c:ingots/chromium"},
-        "I": {"tag": "c:ingots/invar"},
-        "M": {"tag": "c:small_dusts/manganese"},
-        "S": {"tag": "c:plates/steel"}
+        "C": "#c:ingots/chromium",
+        "I": "#c:ingots/invar",
+        "M": "#c:small_dusts/manganese",
+        "S": "#c:plates/steel"
     },
     "result": {
         "id": "techreborn:industrial_alloy_ingot"

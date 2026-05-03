@@ -7,7 +7,7 @@
     ],
     "key": {
         "P": "techreborn:plantball",
-        "S": {"tag": "c:dusts/saw"},
+        "S": "#c:dusts/saw",
         "U": "techreborn:uu_matter"
     },
     "result": {

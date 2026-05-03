@@ -7,7 +7,7 @@
     ],
     "key": {
         "A": "techreborn:advanced_circuit",
-        "T": {"tag": "c:ingots/tungsten"},
+        "T": "#c:ingots/tungsten",
         "I": "techreborn:iridium_alloy_plate",
         "L": "techreborn:lapotron_crystal"
     },

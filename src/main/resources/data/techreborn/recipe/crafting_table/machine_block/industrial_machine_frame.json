@@ -7,8 +7,8 @@
     ],
     "key": {
         "B": "techreborn:advanced_machine_frame",
-        "C": {"tag": "c:plates/chromium"},
-        "T": {"tag": "c:plates/titanium"}
+        "C": "#c:plates/chromium",
+        "T": "#c:plates/titanium"
     },
     "result": {
         "id": "techreborn:industrial_machine_frame"

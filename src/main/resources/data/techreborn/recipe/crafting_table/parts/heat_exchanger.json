@@ -6,9 +6,9 @@
         "CTC"
     ],
     "key": {
-        "C": {"tag": "c:plates/copper"},
+        "C": "#c:plates/copper",
         "E": "techreborn:electronic_circuit",
-        "T": {"tag": "c:plates/tin"}
+        "T": "#c:plates/tin"
     },
     "result": {
         "id": "techreborn:heat_exchanger"

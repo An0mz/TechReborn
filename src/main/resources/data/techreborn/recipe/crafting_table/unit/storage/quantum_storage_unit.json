@@ -6,7 +6,7 @@
         "CDC"
     ],
     "key": {
-        "P": {"tag": "c:plates/tungsten"},
+        "P": "#c:plates/tungsten",
         "B": "techreborn:industrial_machine_frame",
         "X": "techreborn:industrial_storage_unit",
         "D": "techreborn:digital_display",

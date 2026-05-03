@@ -7,7 +7,7 @@
     ],
     "key": {
         "C": "techreborn:advanced_circuit",
-        "P": {"tag": "c:plates/aluminum"},
+        "P": "#c:plates/aluminum",
         "B": "techreborn:lithium_ion_battery"
     },
     "result": {

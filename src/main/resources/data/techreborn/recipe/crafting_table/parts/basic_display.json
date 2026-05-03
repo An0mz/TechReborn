@@ -6,7 +6,7 @@
         "AGA"
     ],
     "key": {
-        "A": {"tag": "c:plates/refined_iron"},
+        "A": "#c:plates/refined_iron",
         "D": "minecraft:black_dye",
         "G": "minecraft:glass_pane",
         "C": "techreborn:electronic_circuit"

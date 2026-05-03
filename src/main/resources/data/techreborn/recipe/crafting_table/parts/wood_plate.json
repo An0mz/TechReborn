@@ -6,7 +6,7 @@
         " S "
     ],
     "key": {
-        "W": {"tag": "minecraft:planks"},
+        "W": "#minecraft:planks",
         "S": "minecraft:stick"
     },
     "result": {

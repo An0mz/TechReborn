@@ -8,7 +8,7 @@
     "key": {
         "P": "techreborn:basic_solar_panel",
         "C": "techreborn:advanced_circuit",
-        "D": {"tag": "c:dusts/coal"},
+        "D": "#c:dusts/coal",
         "L": "minecraft:glass"
     },
     "result": {

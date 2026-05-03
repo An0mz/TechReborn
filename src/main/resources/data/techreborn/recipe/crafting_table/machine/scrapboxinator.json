@@ -9,7 +9,7 @@
         "S": "techreborn:scrap_box",
         "C": "techreborn:electronic_circuit",
         "D": "minecraft:dirt",
-        "I": {"tag": "c:plates/iron"}
+        "I": "#c:plates/iron"
     },
     "result": {
         "id": "techreborn:scrapboxinator"

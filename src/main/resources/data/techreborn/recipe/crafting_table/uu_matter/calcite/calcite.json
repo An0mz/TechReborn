@@ -6,7 +6,7 @@
         " C "
     ],
     "key": {
-        "C": {"tag": "c:dusts/calcite"},
+        "C": "#c:dusts/calcite",
         "U": "techreborn:uu_matter"
     },
     "result": {

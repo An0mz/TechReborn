@@ -7,9 +7,9 @@
         "BBB"
     ],
     "key": {
-        "B": {"tag": "c:ingots/tin"},
-        "T": {"tag": "c:ingots/titanium"},
-        "M": {"tag": "c:ingots/bronze"}
+        "B": "#c:ingots/tin",
+        "T": "#c:ingots/titanium",
+        "M": "#c:ingots/bronze"
     },
     "result": {
         "id": "techreborn:mixed_metal_ingot",

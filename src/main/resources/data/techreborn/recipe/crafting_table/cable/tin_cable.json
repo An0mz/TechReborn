@@ -4,7 +4,7 @@
         "III"
     ],
     "key": {
-        "I": {"tag": "c:ingots/tin"}
+        "I": "#c:ingots/tin"
     },
     "result": {
         "id": "techreborn:tin_cable",

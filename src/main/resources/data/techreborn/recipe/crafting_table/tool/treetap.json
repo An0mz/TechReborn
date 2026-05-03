@@ -7,7 +7,7 @@
     ],
     "key": {
         "S": "minecraft:stick",
-        "P": {"tag": "minecraft:planks"}
+        "P": "#minecraft:planks"
     },
     "result": {
         "id": "techreborn:treetap"

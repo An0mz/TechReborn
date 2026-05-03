@@ -7,7 +7,7 @@
     ],
     "key": {
         "C": "minecraft:copper_ingot",
-        "T": {"tag": "c:ingots/tin"},
+        "T": "#c:ingots/tin",
         "H": "techreborn:nak_coolant_cell_180k"
     },
     "result": {

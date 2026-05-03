@@ -8,7 +8,7 @@
     ],
     "key": {
         "A": "techreborn:advanced_machine_frame",
-        "R": {"tag": "c:plates/aluminum"},
+        "R": "#c:plates/aluminum",
         "C": "techreborn:advanced_circuit",
         "E": "techreborn:extractor"
     },

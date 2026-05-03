@@ -6,7 +6,7 @@
         "MPM"
     ],
     "key": {
-        "P": {"tag": "c:plates/iron"},
+        "P": "#c:plates/iron",
         "C": "minecraft:crafter",
         "M": "techreborn:advanced_circuit"
     },

@@ -8,7 +8,7 @@
     "key": {
         "A": "techreborn:advanced_circuit",
         "D": "techreborn:data_storage_core",
-        "I": {"tag": "c:ingots/iridium"}
+        "I": "#c:ingots/iridium"
     },
     "result": {
         "id": "techreborn:data_storage_chip"

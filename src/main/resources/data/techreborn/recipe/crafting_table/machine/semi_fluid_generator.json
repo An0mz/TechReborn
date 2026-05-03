@@ -10,7 +10,7 @@
         "C": "techreborn:electronic_circuit",
         "G": "techreborn:solid_fuel_generator",
         "H": "techreborn:reinforced_glass",
-        "I": {"tag": "c:plates/iron"}
+        "I": "#c:plates/iron"
     },
     "result": {
         "id": "techreborn:semi_fluid_generator"

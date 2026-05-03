@@ -7,7 +7,7 @@
     ],
     "key": {
         "I": "techreborn:iridium_alloy_plate",
-        "N": {"tag": "c:nuggets/iridium"},
+        "N": "#c:nuggets/iridium",
         "C": "techreborn:energy_flow_chip",
         "O": "techreborn:overclocker_upgrade",
         "D": "techreborn:advanced_chainsaw"

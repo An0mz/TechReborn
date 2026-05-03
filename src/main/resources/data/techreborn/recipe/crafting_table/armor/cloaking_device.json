@@ -6,7 +6,7 @@
         "CIC"
     ],
     "key": {
-        "C": {"tag": "c:ingots/chromium"},
+        "C": "#c:ingots/chromium",
         "I": "techreborn:iridium_alloy_plate",
         "O": "techreborn:lapotronic_orb"
     },

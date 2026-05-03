@@ -8,7 +8,7 @@
     "key": {
         "C": "techreborn:advanced_circuit",
         "F": "techreborn:advanced_machine_frame",
-        "E": {"tag": "c:plates/electrum"},
+        "E": "#c:plates/electrum",
         "P": "minecraft:piston",
         "D": "techreborn:digital_display"
     },

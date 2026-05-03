@@ -6,9 +6,9 @@
         "TCT"
     ],
     "key": {
-        "P": {"tag": "c:plates/copper"},
-        "C": {"tag": "c:dusts/coal"},
-        "T": {"tag": "c:plates/tin"}
+        "P": "#c:plates/copper",
+        "C": "#c:dusts/coal",
+        "T": "#c:plates/tin"
     },
     "result": {
         "id": "techreborn:neutron_reflector"

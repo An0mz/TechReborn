@@ -9,7 +9,7 @@
     "key": {
         "G": "minecraft:glass",
         "R": "minecraft:redstone",
-        "D": {"tag": "c:dusts/diamond"}
+        "D": "#c:dusts/diamond"
     },
     "result": {
         "id": "techreborn:glassfiber_cable",

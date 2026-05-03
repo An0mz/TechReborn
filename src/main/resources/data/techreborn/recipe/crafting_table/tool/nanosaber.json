@@ -6,7 +6,7 @@
         "GLG"
     ],
     "key": {
-        "D": {"tag": "c:plates/diamond"},
+        "D": "#c:plates/diamond",
         "C": "techreborn:carbon_plate",
         "G": "techreborn:glowstone_small_dust",
         "L": "techreborn:lapotron_crystal"

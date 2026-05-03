@@ -7,7 +7,7 @@
     ],
     "key": {
         "P": "minecraft:paper",
-        "W": {"tag": "c:plates/wood"}
+        "W": "#c:plates/wood"
     },
     "result": {
         "id": "techreborn:storage_buffer"

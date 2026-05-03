@@ -6,9 +6,9 @@
         "WPW"
     ],
     "key": {
-        "B": {"tag": "c:barrels/wooden"},
+        "B": "#c:barrels/wooden",
         "P": "minecraft:paper",
-        "W": {"tag": "minecraft:planks"}
+        "W": "#minecraft:planks"
     },
     "result": {
         "id": "techreborn:crude_storage_unit"

@@ -6,7 +6,7 @@
         "PPP"
     ],
     "key": {
-        "P": {"tag": "c:plates/copper"},
+        "P": "#c:plates/copper",
         "V": "techreborn:heat_vent"
     },
     "result": {

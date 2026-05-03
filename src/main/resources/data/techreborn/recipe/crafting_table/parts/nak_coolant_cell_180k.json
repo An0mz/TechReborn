@@ -7,7 +7,7 @@
     ],
     "key": {
         "C": "techreborn:nak_coolant_cell_60k",
-        "T": {"tag": "c:ingots/tin"}
+        "T": "#c:ingots/tin"
     },
     "result": {
         "id": "techreborn:nak_coolant_cell_180k"

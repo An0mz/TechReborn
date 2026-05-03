@@ -8,7 +8,7 @@
     ],
     "key": {
         "A": "techreborn:basic_machine_casing",
-        "R": {"tag": "c:plates/steel"},
+        "R": "#c:plates/steel",
         "C": "techreborn:advanced_circuit"
     },
     "result": {

@@ -7,7 +7,7 @@
     ],
     "key": {
         "B": "minecraft:iron_bars",
-        "P": {"tag": "c:plates/tin"},
+        "P": "#c:plates/tin",
         "V": "techreborn:heat_vent"
     },
     "result": {

@@ -6,7 +6,7 @@
         " P "
     ],
     "key": {
-        "P": {"tag": "c:plates/gold"},
+        "P": "#c:plates/gold",
         "V": "techreborn:reactor_heat_vent"
     },
     "result": {

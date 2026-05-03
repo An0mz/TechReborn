@@ -2,7 +2,7 @@
     "type": "minecraft:crafting_shapeless",
     "group": "planks",
     "ingredients": [
-        {"tag": "techreborn:rubber_logs"}
+        "#techreborn:rubber_logs"
     ],
     "result": {
         "id": "techreborn:rubber_planks",

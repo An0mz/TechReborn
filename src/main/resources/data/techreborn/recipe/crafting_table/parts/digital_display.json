@@ -6,7 +6,7 @@
         "ACA"
     ],
     "key": {
-        "A": {"tag": "c:plates/aluminum"},
+        "A": "#c:plates/aluminum",
         "C": "techreborn:advanced_circuit",
         "D": "minecraft:black_dye",
         "G": "minecraft:glass_pane"

@@ -8,7 +8,7 @@
     "key": {
         "P": "techreborn:advanced_machine_frame",
         "C": "techreborn:advanced_circuit",
-        "D": {"tag": "c:dusts/diamond"},
+        "D": "#c:dusts/diamond",
         "L": "techreborn:reinforced_glass"
     },
     "result": {

@@ -6,8 +6,8 @@
         "DSD"
     ],
     "key": {
-        "S": {"tag": "c:ingots/steel"},
-        "D": {"tag": "c:dusts/diamond"},
+        "S": "#c:ingots/steel",
+        "D": "#c:dusts/diamond",
         "G": "minecraft:diamond"
     },
     "result": {

@@ -7,7 +7,7 @@
     ],
     "key": {
         "C": "techreborn:helium_coolant_cell_60k",
-        "T": {"tag": "c:ingots/tin"}
+        "T": "#c:ingots/tin"
     },
     "result": {
         "id": "techreborn:helium_coolant_cell_180k"

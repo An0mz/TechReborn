@@ -6,8 +6,8 @@
         "DED"
     ],
     "key": {
-        "C": {"tag": "c:plates/copper"},
-        "D": {"tag": "c:plates/diamond"},
+        "C": "#c:plates/copper",
+        "D": "#c:plates/diamond",
         "E": "techreborn:electronic_circuit",
         "H": "techreborn:heat_exchanger"
     },

@@ -8,7 +8,7 @@
     "key": {
         "C": "techreborn:electronic_circuit",
         "G": "techreborn:solid_fuel_generator",
-        "I": {"tag": "c:plates/aluminum"}
+        "I": "#c:plates/aluminum"
     },
     "result": {
         "id": "techreborn:diesel_generator"

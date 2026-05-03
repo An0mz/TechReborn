@@ -8,7 +8,7 @@
     ],
     "key": {
         "A": "techreborn:basic_machine_frame",
-        "R": {"tag": "c:ingots/refined_iron"},
+        "R": "#c:ingots/refined_iron",
         "C": "techreborn:electronic_circuit"
     },
     "result": {

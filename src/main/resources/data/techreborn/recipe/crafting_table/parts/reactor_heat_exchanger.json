@@ -6,7 +6,7 @@
         "CCC"
     ],
     "key": {
-        "C": {"tag": "c:plates/copper"},
+        "C": "#c:plates/copper",
         "E": "techreborn:heat_exchanger"
     },
     "result": {

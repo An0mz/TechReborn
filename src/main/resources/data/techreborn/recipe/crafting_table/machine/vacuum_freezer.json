@@ -7,7 +7,7 @@
     ],
     "key": {
         "P": "techreborn:extractor",
-        "S": {"tag": "c:plates/steel"},
+        "S": "#c:plates/steel",
         "C": "techreborn:advanced_circuit",
         "G": "techreborn:reinforced_glass"
     },

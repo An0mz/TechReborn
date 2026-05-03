@@ -6,7 +6,7 @@
         " B "
     ],
     "key": {
-        "B": {"tag": "c:ingots/bronze"}
+        "B": "#c:ingots/bronze"
     },
     "result": {
         "id": "techreborn:wrench"
