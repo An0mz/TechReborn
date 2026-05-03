@@ -27,7 +27,6 @@ package reborncore.client.multiblock;
 import com.mojang.blaze3d.vertex.PoseStack;
 import com.mojang.blaze3d.vertex.VertexConsumer;
 import net.minecraft.client.renderer.LightTexture;
-import net.minecraft.client.renderer.RenderType;
 import net.minecraft.client.renderer.SubmitNodeCollector;
 import net.minecraft.client.renderer.block.BlockRenderDispatcher;
 import net.minecraft.client.renderer.block.model.BlockModelPart;
@@ -67,7 +66,7 @@ public interface HologramRenderState {
 	}
 
 	record Block(
-		BlockRenderDispatcher blockRenderManager, Level view, int x, int y, int z, RenderType layer, BlockState state, List<BlockModelPart> parts
+		BlockRenderDispatcher blockRenderManager, Level view, int x, int y, int z, net.minecraft.client.renderer.rendertype.RenderType layer, BlockState state, List<BlockModelPart> parts
 	) implements HologramRenderState, SubmitNodeCollector.CustomGeometryRenderer {
 		@Override
 		public void render(PoseStack.Pose pose, VertexConsumer vertexConsumer) {

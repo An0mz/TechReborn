@@ -43,6 +43,7 @@ import net.minecraft.network.chat.Component;
 import net.minecraft.server.level.ServerChunkCache;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.server.level.ServerPlayer;
+import net.minecraft.server.permissions.Permissions;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.level.chunk.status.ChunkStatus;
@@ -80,7 +81,7 @@ public class RebornCoreCommands {
 
 					.then(
 						literal("generate")
-							.requires(source -> source.hasPermission(3))
+							.requires(source -> source.permissions().hasPermission(Permissions.COMMANDS_ADMIN))
 							.then(argument("size", integer())
 									.executes(RebornCoreCommands::generate)
 							)
@@ -88,7 +89,7 @@ public class RebornCoreCommands {
 
 					.then(
 						literal("flyspeed")
-							.requires(source -> source.hasPermission(3))
+							.requires(source -> source.permissions().hasPermission(Permissions.COMMANDS_ADMIN))
 							.then(argument("speed", integer(1, 10))
 									.executes(ctx -> flySpeed(ctx, ImmutableList.of(ctx.getSource().getPlayer())))
 									.then(Commands.argument("players", EntityArgument.players())

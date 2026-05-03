@@ -28,7 +28,7 @@ import java.util.Objects;
 import net.minecraft.advancements.AdvancementHolder;
 import net.minecraft.advancements.AdvancementRequirements;
 import net.minecraft.advancements.AdvancementRewards;
-import net.minecraft.advancements.critereon.RecipeUnlockedTrigger;
+import net.minecraft.advancements.criterion.RecipeUnlockedTrigger;
 import net.minecraft.core.HolderGetter;
 import net.minecraft.data.recipes.RecipeBuilder;
 import net.minecraft.data.recipes.RecipeCategory;
@@ -62,7 +62,7 @@ public class PaddedShapedRecipeJsonBuilder extends ShapedRecipeBuilder {
 			.addCriterion("has_the_recipe", RecipeUnlockedTrigger.unlocked(recipeKey))
 			.rewards(AdvancementRewards.Builder.recipe(recipeKey))
 			.requirements(AdvancementRequirements.Strategy.OR)
-			.build(recipeKey.location());
+			.build(recipeKey.identifier());
 
 		PaddedShapedRecipe shapedRecipe = new PaddedShapedRecipe(
 			Objects.requireNonNullElse(this.group, ""),
@@ -77,7 +77,7 @@ public class PaddedShapedRecipeJsonBuilder extends ShapedRecipeBuilder {
 
 	private ShapedRecipePattern toRaw(ResourceKey<Recipe<?>> recipeKey) {
 		if (this.criteria.isEmpty()) {
-			throw new IllegalStateException("No way of obtaining recipe " + recipeKey.location());
+			throw new IllegalStateException("No way of obtaining recipe " + recipeKey.identifier());
 		} else {
 			return PaddedShapedRecipe.create(this.key, this.rows);
 		}

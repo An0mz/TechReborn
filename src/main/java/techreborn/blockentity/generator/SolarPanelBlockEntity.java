@@ -47,6 +47,7 @@ import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
 import net.minecraft.network.chat.Component;
 import net.minecraft.network.codec.ByteBufCodecs;
+import net.minecraft.world.attribute.EnvironmentAttributes;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.level.Level;
@@ -119,7 +120,7 @@ public class SolarPanelBlockEntity extends PowerAcceptorBlockEntity implements I
 			return 0;
 		}
 
-		float skyAngle = level.getTimeOfDay(0);
+		float skyAngle = level.environmentAttributes().getValue(EnvironmentAttributes.SUN_ANGLE, worldPosition) / 360.0F;
 
 		// Ok, we are actively generating power, but check for a few conditions that would restrict
 		// the generation to minimal production...

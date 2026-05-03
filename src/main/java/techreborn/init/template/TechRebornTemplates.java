@@ -31,6 +31,7 @@ import net.fabricmc.fabric.api.command.v2.CommandRegistrationCallback;
 import net.fabricmc.loader.api.FabricLoader;
 import net.minecraft.commands.CommandSourceStack;
 import net.minecraft.network.chat.Component;
+import net.minecraft.server.permissions.Permissions;
 import techreborn.init.TRContent;
 
 import java.io.IOException;
@@ -49,7 +50,7 @@ public class TechRebornTemplates {
 		CommandRegistrationCallback.EVENT.register((dispatcher, registryAccess, environment) -> dispatcher.register(
 				literal("techreborn")
 						.then(literal("template")
-								.requires(source -> source.hasPermission(3))
+								.requires(source -> source.permissions().hasPermission(Permissions.COMMANDS_ADMIN))
 								.requires(source -> FabricLoader.getInstance().isDevelopmentEnvironment())
 								.then(literal("generate")
 										.then(

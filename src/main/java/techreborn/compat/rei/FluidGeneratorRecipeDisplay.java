@@ -34,7 +34,7 @@ import me.shedaniel.rei.api.common.entry.EntryIngredient;
 import me.shedaniel.rei.api.common.util.EntryIngredients;
 import net.minecraft.network.codec.ByteBufCodecs;
 import net.minecraft.network.codec.StreamCodec;
-import net.minecraft.resources.ResourceLocation;
+import net.minecraft.resources.Identifier;
 import techreborn.recipe.recipes.FluidGeneratorRecipe;
 
 import java.util.List;
@@ -68,7 +68,7 @@ public class FluidGeneratorRecipeDisplay implements Display {
 		this.totalEnergy = totalEnergy;
 	}
 
-	public FluidGeneratorRecipeDisplay(FluidGeneratorRecipe recipe, ResourceLocation category) {
+	public FluidGeneratorRecipeDisplay(FluidGeneratorRecipe recipe, Identifier category) {
 		this.category = CategoryIdentifier.of(category);
 		this.inputs = Lists.newArrayList();
 		this.totalEnergy = recipe.power() * 1000;
@@ -91,7 +91,7 @@ public class FluidGeneratorRecipeDisplay implements Display {
 	}
 
 	@Override
-	public Optional<ResourceLocation> getDisplayLocation() {
+	public Optional<Identifier> getDisplayLocation() {
 		return Optional.empty();
 	}
 
